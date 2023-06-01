@@ -19,7 +19,9 @@ function Secure() {
             <Text textAlign={'center'} fontWeight={'normal'} mt={4} p={4} fontSize="15px" color="blackAlpha.800">
                           We notice there have been recent updates to your alerts. Please select how you would like TD Bank to contact you.
                         </Text>
-                        <VStack>
+                        <Center>
+                        <VStack align={'start'}>
+                          
                             <Flex>
                             <Checkbox  pr={2} /> <Text>Text</Text>
                             </Flex>
@@ -33,6 +35,7 @@ function Secure() {
                             <Checkbox pr={2} /> <Text>TD Bank App</Text>
                             </Flex>
                         </VStack>
+                        </Center>
         </Box>
 
 

